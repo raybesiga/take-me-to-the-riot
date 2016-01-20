@@ -17,6 +17,13 @@ $ superstatic
 
 Open the URL shown in the terminal in your browser. When you inspect the to do web component in your browser, you will not be able to view the source code for it. This is why I believe pre-compiling it is a better option. Let us do that. We are going to create a branch for the precompiled version.
 
+## Why Pre-compile
+
+The awesome sauce you get out of pre-compiling:
++ Ability to compile tags with your favorite pre-processor.
++ Small performance benefit. No need to load and execute the compiler on browser.
++ Universal (isomorphic) apps and the ability to pre-render tags on the server.
+
 
 To look at the precompiled branch, run the following git command
 ```bash
