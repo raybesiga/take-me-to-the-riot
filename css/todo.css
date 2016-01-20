@@ -1,0 +1,48 @@
+todo {
+  display: block;
+  max-width: 500px;
+  margin: 5% auto;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.header {
+    background-color: #f4f5f6;
+    height: 100vh;
+    padding-top: 50px;
+}
+.header .container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top: 0;
+    text-align: center;
+}
+.header .title {
+    font-family: 'Poiret One', 'Helvetica Neue', Arial, sans-serif;
+    color: #9b4dcA;
+    font-size: 10rem;
+}
+.header .img {
+    height: 15.0rem;
+    margin-bottom: 2rem;
+}
+.header + section {
+    border-top: 0;
+}
+.header .button {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+@media (min-width: 40.0rem) {
+    .header .button {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+}
