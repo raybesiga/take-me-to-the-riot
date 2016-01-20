@@ -15,7 +15,20 @@ $ cd to/this/dir
 $ superstatic
 ```
 
-Open the URL shown in the terminal in your browser.
+To look at the precompiled branch, run the following git command
+```bash
+$ git checkout precompiled-todo
+```
+
+And let us install Riot globally
+```bash
+$ npm install -g riot 
+```
+
+
+Open the URL shown in the terminal in your browser. When you inspect the to do web component in your browser, you will not be able to view the source code for it. This is why I believe pre-compiling it is a better option. Let us do that. We are going to create a branch for the precompiled version.
+
+
 
 
 
