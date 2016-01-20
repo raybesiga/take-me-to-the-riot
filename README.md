@@ -42,6 +42,11 @@ Replace with this script
 ```html
  <script src="todo.js"></script>
  ```
+Now run superstatic and view in the browser at specified port
+```bash
+$ superstatic
+```
+
 
 
 
