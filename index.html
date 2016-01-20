@@ -36,8 +36,7 @@
         
        
         
-        <!-- to do tag -->
-        <script type="riot/tag" src="todo.tag"></script>
+        
 
         <script src="js/vendor/jquery-1.12.0.min.js"></script>
         <script src="js/plugins.js"></script>
@@ -47,15 +46,18 @@
         <script src="js/riot.min.js"></script>
         <script src="js/riot+compiler.min.js"></script>
 
+        <!-- to do tag -->
+        <script src="todo.js"></script>
+
         <script>
           riot.mount('todo', {
             title: 'Saitama wants to Riot',
             description: "A to do list for the strongest super hero",
             items: [
-              { title: 'Avoid excessive caffeine', done: true},
-              { title: 'Hide this item', hidden: true },
-              { title: 'Be less provocative' },
-              { title: 'Move to my new house.' }
+              { title: 'Defeat the Subterrenean', done: true},
+              { title: 'Squash the Sea King', hidden: true },
+              { title: 'Mentor my grasshopper Genos without sounding like an idiot' },
+              { title: 'Find a worthy opponent' }
             ]
           })
         </script>

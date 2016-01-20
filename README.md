@@ -15,18 +15,33 @@ $ cd to/this/dir
 $ superstatic
 ```
 
+Open the URL shown in the terminal in your browser. When you inspect the to do web component in your browser, you will not be able to view the source code for it. This is why I believe pre-compiling it is a better option. Let us do that. We are going to create a branch for the precompiled version.
+
+
 To look at the precompiled branch, run the following git command
 ```bash
 $ git checkout precompiled-todo
 ```
 
-And let us install Riot globally
+Install Riot globally
 ```bash
 $ npm install -g riot 
 ```
 
+Compile the todo tag
+```bash
+riot todo.tag
+```
 
-Open the URL shown in the terminal in your browser. When you inspect the to do web component in your browser, you will not be able to view the source code for it. This is why I believe pre-compiling it is a better option. Let us do that. We are going to create a branch for the precompiled version.
+Make changes to the index.html file. Take out the following script:
+```html
+<script type="riot/tag" src="todo.tag"></script>
+```
+
+Replace with this script
+```html
+ <script src="todo.js"></script>
+ ```
 
 
 
